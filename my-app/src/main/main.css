@@ -1,0 +1,18 @@
+.aboutme { 
+  background-color: #333D79FF;
+  height: 100vh;
+  color: white;
+  padding-top: 1.5rem; 
+  padding-bottom: 1.5rem;
+}
+
+.aboutme img { 
+  margin: 0rem 0 1rem 0;
+  height: 10rem;
+  width: auto;
+  border-radius: 50%;
+}
+
+.wrapper {
+  padding: 1rem 0 1rem 0;
+}
