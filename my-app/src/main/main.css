@@ -22,3 +22,31 @@
   font-size: 1.3rem;
   text-align: left;
 }
+
+.small-text {
+  position: absolute;
+  bottom: 0;
+  font-size: .7rem;
+  color: rgb(185, 185, 185);
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  margin-top: 1rem;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: grey;
+  transition: ease-in-out, .14s;
+}
+
+
+/* ============= HTML TAGS ============= */
+
+ul, li {
+  list-style: none;
+  margin: 1rem 0 0 0;
+  padding: 0;
+}
