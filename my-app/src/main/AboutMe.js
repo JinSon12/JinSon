@@ -1,6 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import { Container, Row, Col, Alert } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import "./main.css";
 
 export default function AboutMe() {
@@ -28,7 +31,12 @@ export default function AboutMe() {
       {picture}
       Jin Son
       {contact}
-      Hey!!
+      <Link to="/">Home</Link>
+      <ul>
+        <li><a href="https://github.com/JinSon12" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a></li>
+        <li><a href="https://github.com/JinSon12" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
+      </ul>
+      <FontAwesomeIcon icon={faGithub} />
     </div>
   )
 }

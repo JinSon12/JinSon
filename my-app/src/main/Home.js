@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Container, Row, Col, Alert } from 'reactstrap';
 
 import AboutMe from "./AboutMe.js";
+import Introduction from "./Introduction.js";
 
 
 export default class Home extends Component {
@@ -32,12 +33,12 @@ export default class Home extends Component {
     )
 
     return (
-      <div>
-        <Row>
-          <Col md="3" lg="4" xl="4"><AboutMe /></Col>
-          <Col className="wrapper">{choices}</Col>
-        </Row>
-      </div>
+      <Col className="wrapper">
+        <div>{choices}</div>
+        <div>
+          <Introduction />
+        </div>
+      </Col>
     )
   }
 }

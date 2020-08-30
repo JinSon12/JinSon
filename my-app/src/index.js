@@ -4,26 +4,31 @@ import './index.css';
 
 import Home from './main/Home';
 import Dev from './dev/Dev';
+import Footer from './main/Footer';
+import AboutMe from './main/AboutMe';
 
 import * as serviceWorker from './serviceWorker';
 
-import { BrowserRouter as Router, Route, Link, Switch, Redirect } from "react-router-dom";
-
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
+import { Row, Col } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
-      <Route exact path="/">
-        <Redirect to="/Home" />
-      </Route>
-      <Switch>
-        <Route path="/Home" component={Home} />
-        <Route path="/Programming" component={Dev} />
-        <Route path="/Design" component={Home} />
-        <Route path="/Photography" component={Home} />
-      </Switch>
-    </Router>
+    <Row>
+      <Router>
+        <Col md="3" lg="4" xl="4"><AboutMe /></Col>
+        <Route exact path="/" component={Home}>
+          <Redirect to="/Home" />
+        </Route>
+        <Switch>
+          <Route path="/Home" component={Home} />
+          <Route path="/Programming" component={Dev} />
+          <Route path="/Design" component={Home} />
+          <Route path="/Photography" component={Home} />
+        </Switch>
+      </Router>
+    </Row>
   </React.StrictMode>,
   document.getElementById('root')
 );
