@@ -138,6 +138,11 @@
   height: 100px;
   padding: 1.5em;
 }
+
+.icon-size-sm {
+  font-size: 14px;
+}
+
 /* ============= HTML TAGS ============= */
 
 ul, li {
