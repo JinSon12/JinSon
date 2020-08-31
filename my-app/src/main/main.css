@@ -1,3 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.home {
+  position: absolute;
+  top: 25%;
+}
 
 .aboutme { 
   position: sticky;
@@ -13,8 +20,23 @@
   z-index: 1010;
 }
 
+.inner-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+  margin-top: 1rem;
+  /* font-family : 'Raleway', sans-serif; */
+  letter-spacing: 1px;
+}
+
+.inner-link:hover {
+  color: white;
+  text-decoration: none;
+
+}
+
 .aboutme img { 
-  margin: 0rem 0 1rem 0;
+  margin: 0rem 0 .5rem 0;
   height: 10rem;
   width: auto;
   border-radius: 50%;
@@ -63,7 +85,7 @@
 
 /* ============= TEXTS ============= */
 .title-1 {
-  margin: 0rem 0 2rem 0;
+  margin: 2rem 0 2rem 0;
   font-size: 2.2rem; 
   font-weight: 700;
   line-height: 2.5rem;
@@ -72,6 +94,12 @@
 
 .title-2 {
   margin: 1rem 0 1rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.title-3 {
+  margin: 0rem 0 .1rem 0;
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -97,10 +125,15 @@
 
 .card-title {
   text-align: center;
-  margin-top: 4rem;
+  margin-top: 1rem;
   font-size: 1.1rem;
   font-weight: 600;
 }
+
+.card-title.icon {
+  margin-top: 4rem;
+}
+
 
 .card-descr {
   text-align: center;
@@ -152,6 +185,27 @@ ul, li {
 }
 
 /* ============= Animations ============= */
+.underline {
+  display: inline;
+  position: relative;
+  overflow: hidden;
+}
+.underline:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.underline:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
 .slide-right {
 	-webkit-animation: slide-right 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-right 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -175,5 +229,31 @@ ul, li {
   100% {
     -webkit-transform: translateX(0);
             transform: translateX(0);
+  }
+}
+
+.slide-left {
+	-webkit-animation: slide-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.990) .5s both;
+	        animation: slide-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.990) .5s both;
+}
+
+ @-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(2000px);
+            transform: translateX(2000px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0x);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(2000px);
+            transform: translateX(2000px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
   }
 }

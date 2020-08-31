@@ -1,5 +1,8 @@
 import React, { Component } from "react";
+import Card from './Card';
+
 import projects from '../data/projects';
+import detailIntro from "../data/introduction-detailIntro";
 console.log(projects);
 
 export default class Dev extends Component {
@@ -34,8 +37,9 @@ export default class Dev extends Component {
 
     return (
       <div className="wrapper">
+        <Card title={"As a developer, I am ..."} data={detailIntro} withIcon={true} />
         {intro}
-        {parsedProjectsData}
+        <Card title={"So what did I make?"} data={projects} />
       </div>
     )
   }

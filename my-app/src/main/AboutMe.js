@@ -24,14 +24,16 @@ export default function AboutMe() {
 
   const contact = (
     <div>
-      jinson@uw.edu
+      <a className="link" href="mailto:jinson@uw.edu">jinson@uw.edu</a>
     </div>
   )
 
   const links = (
-    <div className="d-flex flex-column align-items-center justify-content-between">
-      <Link className="link" to="/">Home</Link>
-      <ul>
+    <div className="d-flex flex-column align-items-center justify-content-between mt-5">
+      <Link className="inner-link underline" to="/">Home</Link>
+      <Link className="inner-link underline" to="/Programming">Programming</Link>
+      <a className="inner-link underline" href="https://jinson355.myportfolio.com/home" target="_blank" rel="noopener noreferrer">Design</a>
+      <ul className="mt-5">
         <li><a className="link" href="https://github.com/JinSon12" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a></li>
         <li><a className="link" href="https://www.linkedin.com/in/jin-son-104042182" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a></li>
         <li><a className="link" href="mailto:jinson@uw.edu"><FontAwesomeIcon icon={faEnvelope} className="icon-size-sm" /></a></li>
@@ -42,7 +44,7 @@ export default function AboutMe() {
   return (
     <div className="aboutme d-flex flex-column align-items-center">
       {picture}
-      Jin Son
+      <div className="title-3">Jin Son</div>
       {contact}
       {links}
       <p className="small-text">
