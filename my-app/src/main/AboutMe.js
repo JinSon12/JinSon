@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
+// import { profile } from "./profile.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
