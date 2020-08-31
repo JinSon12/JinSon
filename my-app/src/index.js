@@ -4,7 +4,7 @@ import './index.css';
 
 import Home from './main/Home';
 import Dev from './dev/Dev';
-import Footer from './main/Footer';
+import Credits from './main/Credits';
 import AboutMe from './main/AboutMe';
 
 import * as serviceWorker from './serviceWorker';
@@ -15,18 +15,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Row>
+    <Row className="mx-0">
       <Router>
-        <Col md="3" lg="4" xl="4"><AboutMe /></Col>
-        <Route exact path="/" component={Home}>
-          <Redirect to="/Home" />
-        </Route>
-        <Switch>
-          <Route path="/Home" component={Home} />
-          <Route path="/Programming" component={Dev} />
-          <Route path="/Design" component={Home} />
-          <Route path="/Photography" component={Home} />
-        </Switch>
+        <AboutMe />
+        <Col className="mx-3">
+          <Route exact path="/" component={Home}>
+            <Redirect to="/Home" />
+          </Route>
+          <Switch>
+            <Route path="/Home" component={Home} />
+            <Route path="/Programming" component={Dev} />
+            <Route path="/Design" component={Home} />
+            <Route path="/Photography" component={Home} />
+            <Route path="/Credits" component={Credits} />
+          </Switch>
+        </Col>
       </Router>
     </Row>
   </React.StrictMode>,

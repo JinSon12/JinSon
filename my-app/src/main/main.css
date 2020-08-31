@@ -1,9 +1,16 @@
+
 .aboutme { 
+  position: sticky;
+  top: 0;
+  left: 0;
+  overflow: hidden;
   background-color: #333D79FF;
   height: 100vh;
+  width: 20%;
   color: white;
   padding-top: 1.5rem; 
   padding-bottom: 1.5rem;
+  z-index: 1010;
 }
 
 .aboutme img { 
@@ -25,9 +32,21 @@
 
 .small-text {
   position: absolute;
-  bottom: 0;
-  font-size: .7rem;
+  bottom: 50px;
+  font-size: .8rem;
   color: rgb(185, 185, 185);
+}
+
+.small-text-2 {
+  position: absolute;
+  bottom: 0;
+  font-size: .3rem;
+  color: rgb(185, 185, 185);
+  text-align: center;
+}
+
+.small-text-2 .link {
+  text-decoration: underline;
 }
 
 .link {
@@ -42,11 +61,114 @@
   transition: ease-in-out, .14s;
 }
 
+/* ============= TEXTS ============= */
+.title-1 {
+  margin: 0rem 0 2rem 0;
+  font-size: 2.2rem; 
+  font-weight: 700;
+  line-height: 2.5rem;
 
+}
+
+.title-2 {
+  margin: 1rem 0 1rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* ============= CARDS ============= */
+.card-container {
+  display: flex; 
+  justify-content: space-between; 
+  flex-wrap: wrap;
+  margin: 1rem 0 1rem 0;
+}
+
+.card-container .card {
+  display: flex;
+  flex: 0 1 calc(50% - 1em);
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2.5rem;
+  margin: 1.7em 0 1.7em 0;
+  border: 0;
+  box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17)
+}
+
+.card-title {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.card-descr {
+  text-align: center;
+}
+
+/* ============= ICONS ============= */
+.icon-background {
+  position: absolute;
+  top: -20px;
+  width: 100px; 
+  height: 100px;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.icon-background.blue {
+  background-color: #6998a3;
+}
+
+.icon-background.yellow {
+  background-color: #d3c9c4;
+}
+
+.icon-background.pink {
+  background-color: #f3bac3;
+}
+
+.icon-background.lightblue {
+  background-color: #a4e6f4;
+}
+
+.icon-size {
+  width: 100px;
+  height: 100px;
+  padding: 1.5em;
+}
 /* ============= HTML TAGS ============= */
 
 ul, li {
   list-style: none;
   margin: 1rem 0 0 0;
   padding: 0;
+}
+
+/* ============= Animations ============= */
+.slide-right {
+	-webkit-animation: slide-right 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-right 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
 }

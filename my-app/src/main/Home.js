@@ -33,12 +33,13 @@ export default class Home extends Component {
     )
 
     return (
-      <Col className="wrapper">
+      <div className="wrapper">
         <div>{choices}</div>
         <div>
           <Introduction />
         </div>
-      </Col>
+      </div>
+
     )
   }
 }

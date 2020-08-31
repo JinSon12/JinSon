@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Alert } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -46,6 +46,8 @@ export default function AboutMe() {
       <p className="small-text">
         Made with ❤️ by Jin, 2020
       </p>
+      <p className="small-text-2 px-2">The ownership of the icons, graphics used goes to the respective owners; < br />
+        for more check <Link className="link" to="/Credits">CREDITS</Link></p>
     </div>
   )
 }
