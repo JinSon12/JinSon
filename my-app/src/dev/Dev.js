@@ -38,7 +38,7 @@ export default class Dev extends Component {
     return (
       <div className="wrapper">
         <Card title={"As a developer, I am ..."} data={detailIntro} withIcon={true} />
-        {intro}
+        {/* {intro} */}
         <Card title={"So what did I make?"} data={projects} />
       </div>
     )
