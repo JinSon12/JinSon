@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/JinSon/static/css/main.5c4d4f95.chunk.css",
+    "main.js": "/JinSon/static/js/main.e60ff834.chunk.js",
+    "main.js.map": "/JinSon/static/js/main.e60ff834.chunk.js.map",
+    "runtime-main.js": "/JinSon/static/js/runtime-main.d15013b1.js",
+    "runtime-main.js.map": "/JinSon/static/js/runtime-main.d15013b1.js.map",
+    "static/css/2.11829350.chunk.css": "/JinSon/static/css/2.11829350.chunk.css",
+    "static/js/2.aece5f58.chunk.js": "/JinSon/static/js/2.aece5f58.chunk.js",
+    "static/js/2.aece5f58.chunk.js.map": "/JinSon/static/js/2.aece5f58.chunk.js.map",
+    "index.html": "/JinSon/index.html",
+    "precache-manifest.6cc5daa4b2a33d2154a36807aace5d28.js": "/JinSon/precache-manifest.6cc5daa4b2a33d2154a36807aace5d28.js",
+    "service-worker.js": "/JinSon/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/JinSon/static/css/2.11829350.chunk.css.map",
+    "static/css/main.5c4d4f95.chunk.css.map": "/JinSon/static/css/main.5c4d4f95.chunk.css.map",
+    "static/js/2.aece5f58.chunk.js.LICENSE.txt": "/JinSon/static/js/2.aece5f58.chunk.js.LICENSE.txt",
+    "static/media/curious.0a65bf81.svg": "/JinSon/static/media/curious.0a65bf81.svg",
+    "static/media/icon-detail.e15ca856.svg": "/JinSon/static/media/icon-detail.e15ca856.svg",
+    "static/media/responsibility.09e1a12d.svg": "/JinSon/static/media/responsibility.09e1a12d.svg",
+    "static/media/user.896129ac.svg": "/JinSon/static/media/user.896129ac.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d15013b1.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.aece5f58.chunk.js",
+    "static/css/main.5c4d4f95.chunk.css",
+    "static/js/main.e60ff834.chunk.js"
+  ]
+}
