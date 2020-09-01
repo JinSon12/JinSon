@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/JinSon/static/css/main.5c4d4f95.chunk.css",
-    "main.js": "/JinSon/static/js/main.03ef56f6.chunk.js",
-    "main.js.map": "/JinSon/static/js/main.03ef56f6.chunk.js.map",
+    "main.css": "/JinSon/static/css/main.c0102426.chunk.css",
+    "main.js": "/JinSon/static/js/main.41eb5c52.chunk.js",
+    "main.js.map": "/JinSon/static/js/main.41eb5c52.chunk.js.map",
     "runtime-main.js": "/JinSon/static/js/runtime-main.d15013b1.js",
     "runtime-main.js.map": "/JinSon/static/js/runtime-main.d15013b1.js.map",
-    "static/css/2.11829350.chunk.css": "/JinSon/static/css/2.11829350.chunk.css",
-    "static/js/2.aece5f58.chunk.js": "/JinSon/static/js/2.aece5f58.chunk.js",
-    "static/js/2.aece5f58.chunk.js.map": "/JinSon/static/js/2.aece5f58.chunk.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/JinSon/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.124464c2.chunk.js": "/JinSon/static/js/2.124464c2.chunk.js",
+    "static/js/2.124464c2.chunk.js.map": "/JinSon/static/js/2.124464c2.chunk.js.map",
     "index.html": "/JinSon/index.html",
-    "precache-manifest.2e0dcdc9cd7affd0da4ed0caf49be0e3.js": "/JinSon/precache-manifest.2e0dcdc9cd7affd0da4ed0caf49be0e3.js",
+    "precache-manifest.45670bb01cff7755ded024793f62950e.js": "/JinSon/precache-manifest.45670bb01cff7755ded024793f62950e.js",
     "service-worker.js": "/JinSon/service-worker.js",
-    "static/css/2.11829350.chunk.css.map": "/JinSon/static/css/2.11829350.chunk.css.map",
-    "static/css/main.5c4d4f95.chunk.css.map": "/JinSon/static/css/main.5c4d4f95.chunk.css.map",
-    "static/js/2.aece5f58.chunk.js.LICENSE.txt": "/JinSon/static/js/2.aece5f58.chunk.js.LICENSE.txt",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/JinSon/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.c0102426.chunk.css.map": "/JinSon/static/css/main.c0102426.chunk.css.map",
+    "static/js/2.124464c2.chunk.js.LICENSE.txt": "/JinSon/static/js/2.124464c2.chunk.js.LICENSE.txt",
     "static/media/curious.0a65bf81.svg": "/JinSon/static/media/curious.0a65bf81.svg",
     "static/media/icon-detail.e15ca856.svg": "/JinSon/static/media/icon-detail.e15ca856.svg",
     "static/media/responsibility.09e1a12d.svg": "/JinSon/static/media/responsibility.09e1a12d.svg",
@@ -21,9 +21,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d15013b1.js",
-    "static/css/2.11829350.chunk.css",
-    "static/js/2.aece5f58.chunk.js",
-    "static/css/main.5c4d4f95.chunk.css",
-    "static/js/main.03ef56f6.chunk.js"
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.124464c2.chunk.js",
+    "static/css/main.c0102426.chunk.css",
+    "static/js/main.41eb5c52.chunk.js"
   ]
 }
