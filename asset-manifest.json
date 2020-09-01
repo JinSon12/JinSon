@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/JinSon/static/css/main.c0102426.chunk.css",
-    "main.js": "/JinSon/static/js/main.0d9669fd.chunk.js",
-    "main.js.map": "/JinSon/static/js/main.0d9669fd.chunk.js.map",
+    "main.js": "/JinSon/static/js/main.d8357d60.chunk.js",
+    "main.js.map": "/JinSon/static/js/main.d8357d60.chunk.js.map",
     "runtime-main.js": "/JinSon/static/js/runtime-main.d15013b1.js",
     "runtime-main.js.map": "/JinSon/static/js/runtime-main.d15013b1.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/JinSon/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.124464c2.chunk.js": "/JinSon/static/js/2.124464c2.chunk.js",
     "static/js/2.124464c2.chunk.js.map": "/JinSon/static/js/2.124464c2.chunk.js.map",
     "index.html": "/JinSon/index.html",
-    "precache-manifest.dad4e4df75f68ba54ecac34458fae8d1.js": "/JinSon/precache-manifest.dad4e4df75f68ba54ecac34458fae8d1.js",
+    "precache-manifest.ec924a258f87c2fa3e686f8662f03d1c.js": "/JinSon/precache-manifest.ec924a258f87c2fa3e686f8662f03d1c.js",
     "service-worker.js": "/JinSon/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/JinSon/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.c0102426.chunk.css.map": "/JinSon/static/css/main.c0102426.chunk.css.map",
@@ -24,6 +24,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.124464c2.chunk.js",
     "static/css/main.c0102426.chunk.css",
-    "static/js/main.0d9669fd.chunk.js"
+    "static/js/main.d8357d60.chunk.js"
   ]
 }
