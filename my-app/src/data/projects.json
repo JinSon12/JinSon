@@ -2,9 +2,11 @@
   {
     "name": "Covid-19 Information Website",
     "language": [
-      "Javascript",
       "HTML",
       "CSS"
+    ],
+    "role": [
+      "Front-end Developer"
     ],
     "date": "MAR 2020 - APR 2020",
     "descr": "A website that provides information about Covid 19 and the current status of the patient numbers in the US, and trends of the number of patients and deaths over 30 days. We used an external API, and fetch for getting the statistics from the data server"
@@ -17,6 +19,10 @@
       "CSS",
       "ReactJS"
     ],
+    "role": [
+      "Front-end Developer",
+      "UI/UX Designer"
+    ],
     "date": "APR 2020 - JUN 2020",
     "descr": "A web-app that allows the users to make quizzes and play quizzes"
   },
@@ -28,7 +34,62 @@
       "CSS",
       "ReactJS"
     ],
+    "role": [
+      "Front-end Developer",
+      "UI/UX Designer"
+    ],
     "date": "JUN 2020 - Present",
     "descr": "A web-app that allows the users to make quizzes and play quizzes"
+  },
+  {
+    "name": "Vocaby",
+    "language": [
+      "Javascript",
+      "HTML",
+      "CSS",
+      "ReactJS"
+    ],
+    "role": [
+      "Front-end Developer",
+      "UI/UX Designer"
+    ],
+    "date": "JAN 2020 - Present",
+    "descr": "A chrome extension that lets the users who are non-native speakers of English to look up words and learn vocabularies"
+  },
+  {
+    "name": "Housing Price Analysis in 5 Different Cities",
+    "language": [
+      "R"
+    ],
+    "role": [
+      "Lead Data Analyst"
+    ],
+    "date": "SEPT 2019 - DEC 2019",
+    "descr": "A data analysis project written in R, and deployed using Shiny that takes in housing price data from an external API and performs an analysis depending on different criteria."
+  },
+  {
+    "name": "CodeBreakers Web Portal",
+    "language": [
+      "ReactJS",
+      "CSS",
+      "HTML"
+    ],
+    "role": [
+      "Internship",
+      "Software Engineer"
+    ],
+    "date": "JAN 2020 - JUN 2020"
+  },
+  {
+    "name": "Movie App",
+    "language": [
+      "ReactJS",
+      "CSS",
+      "HTML"
+    ],
+    "role": [
+      "Software Engineer"
+    ],
+    "date": "JAN 2020 - FEB 2020"
   }
 ]

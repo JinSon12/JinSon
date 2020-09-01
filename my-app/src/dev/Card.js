@@ -4,6 +4,7 @@ import { ReactComponent as IconDetail } from "../icons/icon-detail.svg";
 import { ReactComponent as IconResp } from "../icons/responsibility.svg";
 import { ReactComponent as IconUser } from "../icons/user.svg";
 import { ReactComponent as IconCurious } from "../icons/curious.svg";
+import { string } from "prop-types";
 
 export default class Card extends Component {
   state = {
@@ -46,11 +47,29 @@ function DetailedCards(props) {
     if (props.ele.date) date = props.ele.date;
     return date;
   }
+
+  const role = () => {
+    let role = [];
+    if (props.ele.role)
+      role = props.ele.role.join(", ");
+    return role;
+  }
+
+  const language = () => {
+    let language = [];
+    if (props.ele.language)
+      language = props.ele.language.join(", ");
+    return language;
+  }
+
   return (
     <div className="card">
       <div>{renderImage()}</div>
       <div className={props.icon ? "card-title icon" : "card-title"}>{props.ele.name}</div>
       <div>{date()}</div>
+      <div>{role()}</div>
+      <div>{language()}</div>
+      <br />
       <div className="card-descr">{props.ele.descr}</div>
     </div>
   )

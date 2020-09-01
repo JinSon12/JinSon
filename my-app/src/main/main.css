@@ -1,9 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+.base-container {
+  overflow-y: hidden;
+}
+
 .home {
   position: absolute;
-  top: 25%;
 }
 
 .aboutme { 
@@ -88,7 +91,7 @@
   margin: 2rem 0 2rem 0;
   font-size: 2.2rem; 
   font-weight: 700;
-  line-height: 2.5rem;
+  line-height: 2.8rem;
 
 }
 
@@ -190,6 +193,7 @@ ul, li {
   position: relative;
   overflow: hidden;
 }
+
 .underline:before {
   content: "";
   position: absolute;
@@ -204,6 +208,35 @@ ul, li {
 .underline:hover:before {
   visibility: visible;
   width: 100%;
+}
+
+.underline-highlight {
+  background-image: linear-gradient(120deg, #b3f1ff 0%, #ffd7dd 100%);
+  background-repeat: no-repeat;
+  background-size: 0 1.3em;
+  background-position: 0 0%;
+  /* transition: background-size 1s ease-in; */
+  -webkit-animation: underline-highlight 1s ease-in-out both;
+          animation: underline-highlight 1s ease-in-out both;
+          
+}
+
+@-webkit-keyframes underline-highlight {
+  0% {
+    background-size: (0%);
+    background-size: (0%);
+  }
+  100% {
+    background-size: 100% 1.3em;
+  }
+}
+@keyframes underline-highlight {
+  0% {
+    background-size: (0%);
+  }
+  100% {
+    background-size: 100% 1.3em;
+  }
 }
 
 .slide-right {
@@ -256,4 +289,30 @@ ul, li {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
   }
+}
+
+/* ============= Scroll Snap ============= */
+/* https://css-tricks.com/practical-css-scroll-snapping/ */
+.section-container {
+  display: flex;
+  flex-flow: column nowrap;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100%);
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  /* size of the container */
+  height: 90vh;
+}
+
+.section {
+  scroll-snap-align: start;
+  scroll-snap-stop: always; 
+  height: 90%;
+  flex: none;
+}
+
+.first-sec {
+  padding-top: 26vh;
+  padding-bottom: calc(90vh - 25vh);
+  margin: 15vw;
 }

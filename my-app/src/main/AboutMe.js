@@ -32,6 +32,14 @@ export default function AboutMe() {
   const links = (
     <div className="d-flex flex-column align-items-center justify-content-between mt-5">
       <Link className="inner-link underline" to="/">Home</Link>
+      {/* <ul className="collapsible-content">
+        <li>
+          About
+        </li>
+        <li>
+          View Work
+        </li>
+      </ul> */}
       <Link className="inner-link underline" to="/Programming">Programming</Link>
       <a className="inner-link underline" href="https://jinson355.myportfolio.com/home" target="_blank" rel="noopener noreferrer">Design</a>
       <ul className="mt-5">

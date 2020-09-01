@@ -3,7 +3,6 @@ import Card from './Card';
 
 import projects from '../data/projects';
 import detailIntro from "../data/introduction-detailIntro";
-console.log(projects);
 
 export default class Dev extends Component {
   state = {
